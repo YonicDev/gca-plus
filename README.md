@@ -97,6 +97,6 @@ Returns 0 if succesful.
      * Although vJoy is compatible with a fair amount of applications and games, it produces a mere virtualization of the Adapter's ports and thus it is not native, so some features like rumble and real-time inputs are lost.
      * gca+ is cross-platform. vJoy is Windows only.
 
-[logo]: http://i.imgur.com/FkTDjc4.png
+[logo]: http://i.imgur.com/3qB5ej6.png
 [1]: https://github.com/yonicstudios/gca-node
 [2]: http://m4sv.com/page/wii-u-gcn-usb-driver
