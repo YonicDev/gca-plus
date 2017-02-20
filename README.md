@@ -10,7 +10,7 @@ Unreal Engine support is yet to be added.
 
 ### Windows
 
-  * A built version of **libusb-1.0** (static)
+  * A built version of **libusb-1.0** (static). The header is also necessary.
   * **Zadig**: You must use it to replace the HID driver installed on Windows for the adapter to a generic WinUSB one.
 
 ### Linux
@@ -28,7 +28,7 @@ When using your system's package manager. Use the specific commands for your dis
 
 Linux fully supports the adapter's built-in drivers, but an udev rule must be added in order to allow access for gca+.
 
- 1. Go to `/lib/udev/rules.d/`.
+ 1. Go to `/lib/udev/rules.d/`. The header is also necessary.
  2. Edit `XX-gcadapter.rules`, if there isn't one, create a file with the following `51-gcadapter.rules`.
 
 The file must contain the following:
