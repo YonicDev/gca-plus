@@ -27,3 +27,11 @@
 *.exe
 *.out
 *.app
+
+# Temporary - Test projects
+Win32Tester/
+UWinDiagnostic/
+
+#Libraries
+lib/
+libusb.h
